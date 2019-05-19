@@ -1,0 +1,7 @@
+1. A set of function you want to include in your application
+
+2. the main difference between the two is that exports is just a refence to the module.exports while module.export does get
+   return and is an empty object that you can change into what you need.
+
+3 export is recommended over module.export because is just a reference to module.exports any Any reassignment of exports will not 
+  be available outside of the module
